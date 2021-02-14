@@ -1,0 +1,109 @@
+/* Add css */
+
+
+.widget-thumb a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  //  margin-right: 0;
+  //  padding-top: 0;
+}
+
+.widget-post p {
+    font-size: smaller;
+}
+.widget-thumb{
+  padding: 0px;
+}
+h2.widgettitle {
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.pagination{
+  display: block !important;
+}
+
+.page-numbers{
+  border: 1px solid #00000020;
+  padding:7px 11px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.page-numbers:hover{
+  background: #7373e0;
+  color:white;
+}
+.nav-links a:first-child{
+  float: left;
+  padding: 2px 18px;
+  border: 2px solid #00000010;
+  border-radius: 17px;
+}
+.nav-links a:last-child{
+  float: right;
+  padding: 2px 18px;
+  border: 2px solid #00000010;
+  border-radius: 17px;
+}
+.current{
+  background: #7373e0;
+  color:white;
+}
+/* Comment form  */
+.comment-form-author{
+  width: 30%;
+  float: left;
+}
+.comment-form-email{
+  width: 30%;
+  float: left;
+  margin-left: 4%;
+}
+.comment-form-url{
+  width: 30%;
+  float: left;
+  margin-left: 4%;
+}
+.submit{
+  text-align: center;
+  width: 98%;
+}
+
+
+#respond {
+background: #fbfbfb;
+padding:0 10px 0 10px;
+}
+
+/* Style Search form  */
+.widget-search{
+  position: relative;
+}
+i.fa.fa-search{
+  color: #000000A0;
+    position: absolute;
+    left: 189px;
+    top: 10px;
+}
+
+/* Portfolio  */
+.project-thumb img{
+  width: 370px;
+  height: 250px;
+}
+
+#lightcase-content img{
+  width: 370px;
+  height: 250px;
+}
+.print {
+    margin-top: 0px;
+}
+.media {
+    margin-top: 0px !important;
+}
+#bs-example-navbar-collapse-1{
+  margin-top: 27px !important;
+}
